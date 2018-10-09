@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="transcosmos travel">
+	<meta name="keywords" content="transcosmos travel">
+	<title>transcosmos travel</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/prettyPhoto.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header class="navigation">
+		<div class="navbar navbar-inverse navbar-fixed-top" role="banner"> 
+			<div class="container"> 
+				<div class="navbar-header"> 
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> 
+						<span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> 
+					</button> 
+					<div class="navbar-brand"><h1><img src="./images/logo.jpg" alt="transcosmos Travel"/></h1></div>
+				</div> 
+				<div class="collapse navbar-collapse"> 
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="#">HOME</a></li>
+						<li><a href="#">ABOUT US</a></li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true">DESTINATIONS <span class="caret"></span></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">TOURIST ISLAND</a></li>
+								<li><a href="#">CITIES/ TOWN</a></li>
+								<li><a href="#">PHILIPPINE PROVINCES</a></li>
+							</ul>
+						</li>
+						<li><a href="#">PACKAGES</a></li>
+						<li><a href="#">REVIEWS</a></li>
+						<li><a href="#">PAYMENTS</a></li>
+						<li><a href="#">CONTACT US</a></li>
+					</ul> 
+				</div> 
+			</div> 
+		</div><!--/navbar-->
+	</header>
+	<main>
+		<section class="mainVisualArea">
+			<div class="container bookingInfo">
+				<div class="row">
+					<div class="col-md-8">
+						<div class="search-tabs search-tabs-bg">
+							<h1>Find Your Perfect Trip</h1>
+							<div class="tabbable">
+								<ul class="nav nav-tabs" id="myTab">
+									<li class="active"><a href="#tab-1" data-toggle="tab"><i class="fa fa-building-o"></i> <span>Hotels</span></a></li>
+									<li><a href="#tab-2" data-toggle="tab"><i class="fa fa-plane"></i> <span>Flights</span></a></li>
+									<li><a href="#tab-3" data-toggle="tab"><i class="fa fa-home"></i> <span>Rentals</span></a></li>
+									<li><a href="#tab-4" data-toggle="tab"><i class="fa fa-bolt"></i> <span>Activities</span></a></li>
+								</ul>
+								<div class="tab-content">
+									<div class="tab-pane fade in active" id="tab-1">
+										<h2>Search and Save on Hotels</h2>
+										<form>
+											<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+												<label>Where are you going?</label>
+												<span class="twitter-typeahead">
+													<input dir="auto" spellcheck="false" autocomplete="off" class="typeahead form-control tt-input" placeholder="City, Airport, Point of Interest" type="text">
+												</span>
+											</div>
+											<div class="input-daterange" data-date-format="M d, D">
+												<div class="row">
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>Check-in</label>
+															<input class="form-control datePicker" name="start" type="text">
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>Check-out</label>
+															<input class="form-control datePicker" name="end" type="text">
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-select-plus">
+															<label>Rooms</label>
+															<div class="btn-group btn-group-select-num" data-toggle="buttons">
+																<label class="btn btn-primary active">
+																	<input name="options" type="radio">1</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">2</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3+</label>
+															</div>
+															<select class="form-control hidden">
+																<option>1</option>
+																<option>2</option>
+																<option>3</option>
+																<option selected="selected">4</option>
+																<option>5</option>
+																<option>6</option>
+																<option>7</option>
+																<option>8</option>
+																<option>9</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+															</select>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-select-plus">
+															<label>Guests</label>
+															<div class="btn-group btn-group-select-num" data-toggle="buttons">
+																<label class="btn btn-primary active">
+																	<input name="options" type="radio">1</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">2</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3+</label>
+															</div>
+															<select class="form-control hidden">
+																<option>1</option>
+																<option>2</option>
+																<option>3</option>
+																<option selected="selected">4</option>
+																<option>5</option>
+																<option>6</option>
+																<option>7</option>
+																<option>8</option>
+																<option>9</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="btn btn-primary btn-lg" type="submit">Search for Hotels</button>
+										</form>
+									</div>
+									<div class="tab-pane fade" id="tab-2">
+										<h2>Search for Cheap Flights</h2>
+										<form>
+											<div class="tabbable">
+												<div class="tab-content">
+													<div class="tab-pane fade in active" id="flight-search-1">
+														<div class="row">
+															<div class="col-md-6">
+																<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+																	<label>From</label>
+																	<span class="twitter-typeahead"><input class="typeahead form-control tt-input" placeholder="City, Airport" type="text"></span>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+																	<label>To</label>
+																	<span class="twitter-typeahead"><input class="typeahead form-control tt-input" placeholder="City, Airport" type="text"></span>
+																</div>
+															</div>
+														</div>
+														<div class="input-daterange" data-date-format="M d, D">
+															<div class="row">
+																<div class="col-md-3">
+																	<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+																		<label>Departing</label>
+																		<input class="form-control datePicker" name="start" type="text">
+																	</div>
+																</div>
+																<div class="col-md-3">
+																	<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+																		<label>Returning</label>
+																		<input class="form-control datePicker" name="end" type="text">
+																	</div>
+																</div>
+																<div class="col-md-6">
+																	<div class="form-group form-group-lg form-group-select-plus">
+																		<label>Passngers</label>
+																		<div class="btn-group btn-group-select-num" data-toggle="buttons">
+																			<label class="btn btn-primary active">
+																				<input name="options" type="radio">1</label>
+																			<label class="btn btn-primary">
+																				<input name="options" type="radio">2</label>
+																			<label class="btn btn-primary">
+																				<input name="options" type="radio">3</label>
+																			<label class="btn btn-primary">
+																				<input name="options" type="radio">3+</label>
+																		</div>
+																		<select class="form-control hidden">
+																			<option>1</option>
+																			<option>2</option>
+																			<option>3</option>
+																			<option selected="selected">4</option>
+																			<option>5</option>
+																			<option>6</option>
+																			<option>7</option>
+																			<option>8</option>
+																			<option>9</option>
+																			<option>10</option>
+																			<option>11</option>
+																			<option>12</option>
+																			<option>13</option>
+																			<option>14</option>
+																		</select>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="tab-pane fade" id="flight-search-2">
+														<div class="row">
+															<div class="col-md-6">
+																<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+																	<label>From</label>
+																	<span class="twitter-typeahead">
+																		<input class="typeahead form-control tt-input" placeholder="City, Airport" type="text"></span>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+																	<label>To</label>
+																	<span class="twitter-typeahead">
+																		<input class="typeahead form-control tt-input" placeholder="City, Airport" type="text"></span>
+																</div>
+															</div>
+														</div>
+														<div class="row">
+															<div class="col-md-3">
+																<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+																	<label>Departing</label>
+																	<input class="date-pick form-control" data-date-format="M d, D" type="text">
+																</div>
+															</div>
+															<div class="col-md-6">
+																<div class="form-group form-group-lg form-group-select-plus">
+																	<label>Passngers</label>
+																	<div class="btn-group btn-group-select-num" data-toggle="buttons">
+																		<label class="btn btn-primary active">
+																			<input name="options" type="radio">1</label>
+																		<label class="btn btn-primary">
+																			<input name="options" type="radio">2</label>
+																		<label class="btn btn-primary">
+																			<input name="options" type="radio">3</label>
+																		<label class="btn btn-primary">
+																			<input name="options" type="radio">3+</label>
+																	</div>
+																	<select class="form-control hidden">
+																		<option>1</option>
+																		<option>2</option>
+																		<option>3</option>
+																		<option selected="selected">4</option>
+																		<option>5</option>
+																		<option>6</option>
+																		<option>7</option>
+																		<option>8</option>
+																		<option>9</option>
+																		<option>10</option>
+																		<option>11</option>
+																		<option>12</option>
+																		<option>13</option>
+																		<option>14</option>
+																	</select>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="btn btn-primary btn-lg" type="submit">Search for Flights</button>
+										</form>
+									</div>
+									<div class="tab-pane fade" id="tab-3">
+										<h2>Find Your Perfect Home</h2>
+										<form>
+											<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+												<label>Where are you going?</label>
+												<span class="twitter-typeahead"><input class="typeahead form-control tt-input" placeholder="City, Airport, Point of Interest" type="text"></span>
+</div>
+											<div class="input-daterange" data-date-format="M d, D">
+												<div class="row">
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>Check-in</label>
+															<input class="form-control datePicker" name="start" type="text">
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>Check-out</label>
+															<input class="form-control datePicker" name="end" type="text">
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group form-group-lg form-group-select-plus">
+															<label>Passngers</label>
+															<div class="btn-group btn-group-select-num" data-toggle="buttons">
+																<label class="btn btn-primary active">
+																	<input name="options" type="radio">1</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">2</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3</label>
+																<label class="btn btn-primary">
+																	<input name="options" type="radio">3+</label>
+															</div>
+															<select class="form-control hidden">
+																<option>1</option>
+																<option>2</option>
+																<option>3</option>
+																<option selected="selected">4</option>
+																<option>5</option>
+																<option>6</option>
+																<option>7</option>
+																<option>8</option>
+																<option>9</option>
+																<option>10</option>
+																<option>11</option>
+																<option>12</option>
+																<option>13</option>
+																<option>14</option>
+															</select>
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="btn btn-primary btn-lg" type="submit">Search for Vacation Rentals</button>
+										</form>
+									</div>
+									<div class="tab-pane fade" id="tab-4">
+										<h2>Search for Activities</h2>
+										<form>
+											<div class="input-daterange" data-date-format="M d, D">
+												<div class="row">
+													<div class="col-md-6">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+															<label>Where are you going?</label>
+															<span class="twitter-typeahead">
+																<input class="typeahead form-control tt-input" placeholder="City, Airport, Point of Interest" type="text">
+															</span>
+														</div>
+													</div>
+													<div class="col-md-6">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-map-marker input-icon"></i>
+															<label>Drop-off Location</label>
+															<span class="twitter-typeahead">
+																<input class="typeahead form-control tt-input" placeholder="City, Airport" type="text"></span>
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>From</label>
+															<input class="form-control datePicker" name="start" type="text">
+														</div>
+													</div>
+													<div class="col-md-3">
+														<div class="form-group form-group-lg form-group-icon-left"><i class="fa fa-calendar input-icon input-icon-highlight"></i>
+															<label>To</label>
+															<input class="form-control datePicker" name="end" type="text">
+														</div>
+													</div>
+												</div>
+											</div>
+											<button class="btn btn-primary btn-lg" type="submit">Search for Activities</button>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="promoArea">
+			<div class="container">
+				<h2 class="titleHeading">LAST MINUTE DEALS</h2>
+				<div id="promo" class="carousel slide promoCarousel" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#promo" data-slide-to="0" class=""></li>
+						<li class="" data-target="#promo" data-slide-to="1"></li>
+						<li class="active" data-target="#promo" data-slide-to="2"></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active">
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg01.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Great Wall of China <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg02.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rome Italy <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg03.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rio De Jainero Brazil<span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg04.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>San Francisco California <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg01.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Great Wall of China <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg02.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rome Italy <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg03.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rio De Jainero Brazil<span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg04.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>San Francisco California <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg01.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Great Wall of China <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg02.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rome Italy <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg03.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rio De Jainero Brazil<span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg04.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>San Francisco California <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item">
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg01.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Great Wall of China <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg02.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rome Italy <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg03.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>Rio De Jainero Brazil<span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-3">
+								<div class="thumbnail">
+									<img src="./images/promoImg04.jpg" alt="">
+									<div class="caption">
+										<div class="ratings">
+											<p class="pull-left">
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star"></span>
+												<span class="glyphicon glyphicon-star-empty"></span>
+											</p>
+											<p class="pull-right">10 reviews</p>
+										</div>
+										<h3>San Francisco California <span class="price">$500</span></h3>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, Sed ut perspiciatis unde omnis iste natus.</p>
+										<button type="button" class="btn">VIEW DETAILS</button>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="exploreArea">
+			<div class="container">
+				<h2 class="titleHeading">EXPLORE THE WORLD</h2>
+				<div class="exploreAreaInfo">
+					<ul class="exploreFilter text-center">
+						<li><a class="btn active" href="#" data-filter="*">All</a></li>
+						<li><a class="btn" href="#" data-filter=".asia">Asia</a></li>
+						<li><a class="btn" href="#" data-filter=".america">America</a></li>
+						<li><a class="btn" href="#" data-filter=".europe">Europe</a></li>
+					</ul><!--/#portfolio-filter-->
+					<div class="exploreItems">
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/1.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>Philippines</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/1_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect" >
+								<div class="countryImg">
+									<img src="images/explore/2.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>Singapore</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/2_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/3.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>India</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/3_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/4.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>Singapore</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/4_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 europe">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/5.jpg" alt="">
+								</div> <div class="mask text-center">
+								<h3>France</h3>
+								<h4>Lorem ipsum dolor sit amet consectetur</h4>
+								<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+								<a href="images/explore/5_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/6.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>Korea</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/6_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 europe">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/7.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>United Kingdom</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/7_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 asia">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/8.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>Japan</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/8_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 america">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/9.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>San Francisco USA</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/9_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 america">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/10.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>New York</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/10_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 europe">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/11.jpg" alt=""></div> 
+								<div class="mask text-center">
+									<h3>Italy</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/11_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-3 col-xs-12 america">
+							<div class="view efffect">
+								<div class="countryImg">
+									<img src="images/explore/12.jpg" alt="">
+								</div> 
+								<div class="mask text-center">
+									<h3>New York</h3>
+									<h4>Lorem ipsum dolor sit amet consectetur</h4>
+									<a href="#"><i class="fa fa-pencil-square-o"></i></a>
+									<a href="images/explore/12_l.jpg" data-gallery="prettyPhoto"><i class="fa fa-search-plus"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="specialArea">
+			<div class="container">
+				<h2 class="titleHeading">SPECIAL PACKAGES</h2>
+				<div class="specialInfo row">
+					<div class="col-md-4 col-sm-4">
+						<figure>
+							<img src="./images/specialImg01.jpg" alt=""/>
+							<figcaption>
+								<h3>FAMILY TRIP PACKAGE<span class="price">$500</span></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<figure>
+							<img src="./images/specialImg02.jpg" alt=""/>
+							<figcaption>
+								<h3>HONEYMOON TRIP PACKAGE<span class="price">$500</span></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+							</figcaption>
+						</figure>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<figure>
+							<img src="./images/specialImg03.jpg" alt=""/>
+							<figcaption>
+								<h3>BUDDY TRIP PACKAGE<span class="price">$500</span></h3>
+								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+							</figcaption>
+						</figure>
+					</div>
+				</div>
+			</div>
+		<!--/ .sectionBlock --></section>
+		<section class="clientArea">
+			<div class="container">
+				<h2 class="titleHeading">HAPPY CLIENTS</h2>
+				<div class="subText"><p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem<br> aperiam, eaque ipsa quae ab illo inventore veritatis .</p></div>
+				<div id="testimonials">
+					<div class="testimonialItem">
+						<div class="clientInfo row">
+							<div class="col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<img src="./images/clientImg01.png" alt=""/>
+									<span>Brad Pitt New York, USA</span>
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<img src="./images/clientImg02.png" alt=""/>
+									<span>Leonardo DiCaprio New York, USA</span>
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam.</p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-4">
+								<div class="thumbnail">
+									<img src="./images/clientImg03.png" alt=""/>
+									<span>Steven Yeun New York, USA</span>
+									<div class="caption">
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doeiusmod tempor incididunt ut labore et dolore magna aliqua. Ut  enim ad minim veniam.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		<!--/ .sectionBlock --></section>
+		<section class="subscribeArea">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h2 class="titleHeading">SUBSCRIBE TO OUR NEWSLETTER</h2>
+						<div class="subText">
+							<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+						</div>
+						<form>
+							<input type="text" placeholder="Enter your Name"/>
+							<input type="text" placeholder="Enter your Email Address"/>
+							<button type="button" class="btn">SUBSCRIBE</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		<!-- /.sectionBlock --></section>
+	</main>
+	<footer id="footer">
+		<div class="container">
+			<div class="text-center">
+				<p>Copyright &copy; 2015 - transcosmos Travel | All Rights Reserved</p>
+			</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/jquery.js"></script> 
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/jquery.isotope.min.js"></script>
+	<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script> 
+	<script type="text/javascript" src="js/jquery.parallax.js"></script> 
+	<script type="text/javascript" src="js/jquery.carouFredSel.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
